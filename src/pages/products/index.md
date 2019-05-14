@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: Services
-image: /img/willian-justen-de-vasconcellos-595793-unsplash.jpg
+image: /img/shttefan-294119-unsplash.jpg
 heading: Great coffee with a conscience
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their

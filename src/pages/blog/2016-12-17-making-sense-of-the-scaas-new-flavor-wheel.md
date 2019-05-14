@@ -5,7 +5,7 @@ date: 2016-12-17T15:04:10.000Z
 description: >-
   Vi er stolte over at Finansielt CV vil være en af de første services
   tilgængelig i e-Box Plus. 
-featuredpost: true
+featuredpost: false
 featuredimage: /img/ebokslogo.png
 tags:
   - flavor

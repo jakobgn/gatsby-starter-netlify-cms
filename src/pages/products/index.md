@@ -1,6 +1,6 @@
 ---
 templateKey: product-page
-title: Services
+title: Produkter
 image: /img/benjamin-davies-265095-unsplash.jpg
 heading: Finansielt CV
 description: >-

@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: Services
-image: /img/shttefan-294119-unsplash.jpg
+image: /img/carlos-muza-84523-unsplash.jpg
 heading: Great coffee with a conscience
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their
@@ -68,7 +68,7 @@ testimonials:
     quote: >-
       Kaldi is the place to go if you want the best quality coffee. I love their
       stance on empowering farmers and transparency.
-full_image: /img/esteban-lopez-272467-unsplash.jpg
+full_image: /img/brooke-cagle-195777-unsplash.jpg
 pricing:
   heading: Monthly subscriptions
   description: >-

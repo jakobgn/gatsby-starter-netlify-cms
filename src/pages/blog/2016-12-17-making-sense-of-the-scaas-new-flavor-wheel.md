@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Finansielt CV i e-Box Plus
-date: 2016-12-17T15:04:10.000Z
+date: 2019-04-10T14:04:00.000Z
 description: >-
   Vi er stolte over at Finansielt CV vil være en af de første services
   tilgængelig i e-Box Plus. 

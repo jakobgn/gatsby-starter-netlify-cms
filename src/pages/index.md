@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Vi bygger fremtidens infrastruktur for finansiel rådgivning
-image: /img/nasa-cutted.jpg
+image: /img/ellehem-693-unsplash.jpg
 heading: Great coffee with a smile
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:

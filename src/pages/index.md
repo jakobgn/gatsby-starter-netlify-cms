@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: Vi bygger fremtidens infrastruktur for finansiel rådgivning
+title: Vi bygger fremtidens finansielle rådgivning
 image: /img/ellehem-693-unsplash.jpg
 heading: Kunden i centrum
 subheading: Support sustainable farming while enjoying a cup

@@ -3,7 +3,10 @@ templateKey: product-page
 title: Services
 image: /img/tools-for-motivation-371416-unsplash.jpg
 heading: Finansielt CV
-description: Vi gør det nemt for alle at få et overblik over deres økonomi
+description: >-
+  Vi gør det nemt for alle at få et overblik over deres økonomi. Samle dine
+  dokumenter ét sted, få overblik og få mere ud af dine lån, investeringer og
+  pension.
 intro:
   blurbs:
     - image: /img/undraw_folder_39kl.png
@@ -32,21 +35,20 @@ intro:
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
 main:
-  heading: Great coffee with no compromises
+  heading: Få adgang til vores PensionsInfo-scraper service
   description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+    Ved at kalde denne service kan du indlæse data fra PensionsInfo PDF'en helt
+    automatisk uden indtastninger. Servicen er tilgængelig som et REST API med
+    swagger dokumentation og eksempler. 
   image1:
     alt: A close-up of a paper filter filled with ground coffee
-    image: /img/tools-for-motivation-371416-unsplash.jpg
+    image: /img/undraw_dreamer_gxxi.png
   image2:
     alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
+    image: /img/undraw_files_sent_oeqg.png
   image3:
     alt: Coffee beans
-    image: /img/products-grid1.jpg
+    image: /img/tools-for-motivation-371416-unsplash.jpg
 testimonials:
   - author: Elisabeth Kaurismäki
     quote: >-

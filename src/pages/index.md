@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Vi bygger fremtidens finansielle rådgivning
-image: /img/ellehem-693-unsplash.jpg
+image: /img/willian-justen-de-vasconcellos-595793-unsplash.jpg
 heading: Kunden i centrum
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:

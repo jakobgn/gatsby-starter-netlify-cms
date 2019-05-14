@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: Produkter
-image: /img/benjamin-davies-265095-unsplash.jpg
+image: /img/ellehem-693-unsplash.jpg
 heading: Finansielt CV
 description: >-
   Vi gør det nemt for alle at få et overblik over deres økonomi. Samle dine

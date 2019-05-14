@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: Automatisk PensionsInfo indlæsning i PensionPartner
-date: 2017-01-04T15:04:10.000Z
+date: 2019-05-13T22:00:00.000Z
 description: >-
   We’re proud to announce that we’ll be offering a small batch of Jamaica Blue
   Mountain coffee beans in our store next week.

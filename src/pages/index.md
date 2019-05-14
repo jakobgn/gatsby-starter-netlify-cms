@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Building the future fintech infrastructure
-image: /img/ian-dooley-407840-unsplash.jpg
+image: /img/nasa-53884-unsplash.jpg
 heading: Great coffee with a smile
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:

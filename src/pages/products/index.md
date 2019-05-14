@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: Services
-image: /img/carlos-muza-84523-unsplash.jpg
+image: /img/tools-for-motivation-371416-unsplash.jpg
 heading: Great coffee with a conscience
 description: >-
   Kaldi is the ultimate spot for coffee lovers who want to learn about their

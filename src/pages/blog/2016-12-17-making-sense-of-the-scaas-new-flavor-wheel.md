@@ -1,16 +1,17 @@
 ---
 templateKey: blog-post
-title: Making sense of the SCAA’s new Flavor Wheel
+title: Finansielt CV i e-Box Plus
 date: 2016-12-17T15:04:10.000Z
-featuredpost: false
-featuredimage: /img/flavor_wheel.jpg
-description: The Coffee Taster’s Flavor Wheel, the official resource used by coffee tasters, has been revised for the first time this year.
+description: >-
+  Vi er stolte over at Finansielt CV vil være en af de første services
+  tilgængelig i e-Box Plus. 
+featuredpost: true
+featuredimage: /img/ebokslogo.png
 tags:
   - flavor
   - tasting
 ---
-
-![flavor wheel](/img/flavor_wheel.jpg)
+![flavor wheel](/img/ebokslogo.png)
 
 The SCAA updated the wheel to reflect the finer nuances needed to describe flavors more precisely. The new descriptions are more detailed and hence allow cuppers to distinguish between more flavors.
 

@@ -2,17 +2,13 @@
 templateKey: index-page
 title: Vi bygger fremtidens infrastruktur for finansiel rådgivning
 image: /img/ellehem-693-unsplash.jpg
-heading: Great coffee with a smile
+heading: Kunden i centrum
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
   title: Kan finansiel rådgivning gøres bedre?
   description: |
     Det tror vi på. I dag er det rigtig dyrt at få god finansiel rådgivning. 
-description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+description: Vi vil gøre kunden til ejer af sine egne data
 intro:
   blurbs:
     - image: /img/undraw_file_bundle_xl7g.png

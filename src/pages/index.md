@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
-title: Great coffee with a party
-image: /img/home-jumbotron.jpg
+title: Building the future fintech infrastructure
+image: /img/ellehem-693-unsplash.jpg
 heading: Great coffee with a smile
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:

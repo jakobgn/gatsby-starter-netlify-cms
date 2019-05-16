@@ -1,10 +1,9 @@
-var proxy = require('http-proxy-middleware')
+var proxy = require ('http-proxy-middleware');
 
 module.exports = {
   siteMetadata: {
     title: 'TEAL',
-    description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+    description: 'Hjemmeside for virksomheden TEAL, som står bag Financielt CV',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -79,14 +78,14 @@ module.exports = {
   // for avoiding CORS while developing Netlify Functions locally
   // read more: https://www.gatsbyjs.org/docs/api-proxy/#advanced-proxying
   developMiddleware: app => {
-    app.use(
+    app.use (
       '/.netlify/functions/',
-      proxy({
+      proxy ({
         target: 'http://localhost:9000',
         pathRewrite: {
           '/.netlify/functions/': '',
         },
       })
-    )
+    );
   },
-}
+};

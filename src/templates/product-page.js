@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {graphql} from 'gatsby';
+import {graphql, Link} from 'gatsby';
 import Layout from '../components/Layout';
 import Features from '../components/Features';
 import Testimonials from '../components/Testimonials';
@@ -40,14 +40,27 @@ export const ProductPageTemplate = ({
           </div>
           <div className="columns">
             <div className="column is-10 is-offset-1">
-              <Features gridItems={intro.blurbs} />
-               <div
+              <Features gridItems={intro.blurbs} config={{}} />
+              <div className="columns">
+                <div className="column is-12 has-text-centered">
+                  <a
+                    className="btn"
+                    href="https://www.fincv.dk/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Besøg Financielt CV
+                  </a>
+                </div>
+              </div>
+              <div
                 className="full-width-image-container"
                 style={{
                   backgroundImage: `url(${fullImage.childImageSharp ? fullImage.childImageSharp.fluid.src : fullImage})`,
-                  marginBottom:"70px"
+                  marginBottom: '70px',
                 }}
               />
+
               <div className="columns">
                 <div className="column is-7">
                   <h3 className="has-text-weight-semibold is-size-3">
@@ -61,12 +74,15 @@ export const ProductPageTemplate = ({
                   </article>
                 </div>
               </div>
-              <h2 className="has-text-weight-semibold is-size-2">
-                {pricing.heading}
-              </h2>
-              <p className="is-size-5">{pricing.description}</p>
-              <Pricing data={pricing.plans} />
+                          <div className="columns">
+              <div className="column is-12 has-text-centered">
+                     <Link className="btn" to='/contact'>
+                    Kontakt os for at høre mere
+                  </Link>
+              </div>
             </div>
+            </div>
+
           </div>
         </div>
       </div>

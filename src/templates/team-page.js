@@ -7,7 +7,7 @@ import Testimonials from '../components/Testimonials';
 import Pricing from '../components/Pricing';
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 
-export const ProductPageTemplate = ({
+export const TeamPageTemplate = ({
   image,
   title,
   heading,
@@ -23,14 +23,8 @@ export const ProductPageTemplate = ({
       <div className="container">
         <div className="section">
           <div className="columns">
-            <div className="column is-7 is-offset-1">
-              <h3 className="has-text-weight-semibold is-size-2">{heading}</h3>
-              <p>{description}</p>
-            </div>
-          </div>
-          <div className="columns">
             <div className="column is-10 is-offset-1">
-              <Features gridItems={intro.blurbs} />
+              <Features gridItems={intro.blurbs} config={{centered:true}} />
             </div>
           </div>
         </div>
@@ -39,7 +33,7 @@ export const ProductPageTemplate = ({
   </div>
 );
 
-ProductPageTemplate.propTypes = {
+TeamPageTemplate.propTypes = {
   image: PropTypes.oneOfType ([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   heading: PropTypes.string,
@@ -68,7 +62,7 @@ const TeamPage = ({data}) => {
 
   return (
     <Layout>
-      <ProductPageTemplate
+      <TeamPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
         heading={frontmatter.heading}
@@ -117,6 +111,7 @@ export const teamPageQuery = graphql`
               }
             }
             text
+            imageHeader
           }
           heading
           description

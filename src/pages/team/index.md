@@ -4,30 +4,29 @@ title: Team
 image: /img/tools-for-motivation-371416-unsplash.jpg
 heading: Team
 description: >-
-  Vi gør det nemt for alle at få et overblik over deres økonomi. Samle dine
-  dokumenter ét sted, få overblik og få mere ud af dine lån, investeringer og
-  pension.
+  
 intro:
   blurbs:
-    - image: /img/undraw_folder_39kl.png
+    - image: /img/kourosh.png
+      imageHeader: >
+        Kourosh Marjani Rasmussen
       text: >
-        Saml dine finansielle dokumenter i Finansielt CV, så du får et samlet
-        overblik og kan let dele dem med din bank, pensionskasse eller rådgiver,
-        når der er brug for det.
-    - image: /img/undraw_all_the_data_h4ki.png
+        CEO 
+    - image: /img/asbjoern.png
+      imageHeader: >
+        Asbjørn Dyhrberg Thegler
       text: >-
-        Du får et samlet overblik, som sikrer dig, at du har styr på de store
-        linjer i din økonomi. Jo mere du bruger Finansielt CV, jo bedre overblik
-        får du, i det tempo, der passer dig.
-    - image: /img/undraw_growth_analytics_8btt.png
+        CTO
+    - image: /img/jakob.png
+      imageHeader: >
+        Jakob Gøttrup Nielsen
       text: >
-        Finansielt CV vil gøre dig opmærksom på dine klatpensioner, dine dyre
-        lån eller forkerte investeringer. Du kan så spare penge, ved at kontakte
-        din rådgiver, bank eller pensionskasse.
-    - image: /img/undraw_spread_love_r9jb.png
+        Software Developer
+    - image: /img/janus.png
+      imageHeader: >
+        Janus Clemmensen
       text: >
-        Sammensæt dit finansielle CV med din nærmeste, og del med finansielle
-        rådgivere. 
+        Design & UX
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their

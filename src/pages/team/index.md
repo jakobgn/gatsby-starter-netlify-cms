@@ -21,7 +21,7 @@ intro:
       imageHeader: >
         Jakob Gøttrup Nielsen
       text: >
-        Software Developer
+        Udvikling
     - image: /img/janus.png
       imageHeader: >
         Janus Clemmensen

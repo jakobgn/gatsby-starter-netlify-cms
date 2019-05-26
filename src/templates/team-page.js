@@ -24,6 +24,7 @@ export const TeamPageTemplate = ({
         <div className="section">
           <div className="columns">
             <div className="column is-10 is-offset-1">
+              <h1 className="center-text"> Teal Partnere</h1>
               <Features gridItems={intro.blurbs} config={{centered:true}} />
             </div>
           </div>

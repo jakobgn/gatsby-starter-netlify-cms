@@ -21,7 +21,6 @@ const Wrapper = styled.div`
 	@media (max-width: 699px) {
 		${props => (props.footer ? '' : 'margin-left: -2rem;')}
 		padding: 0 2rem;
-		width: ${getSectionWidth};
 	}
 `
 

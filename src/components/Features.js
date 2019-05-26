@@ -5,17 +5,23 @@ import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
 const FeatureGrid = ({ gridItems, config}) => (
   <div className="columns is-multiline">
     {gridItems.map(item => (
-      <div key={item.text} className="column is-6">
+      <div key={item.text} className={"column is-" + (config.rows || 6)}>
         <section className="section">       
           <div className="has-text-centered">
             <div
               style={{
-                width: '240px',
+                width: config.width || '240px',
                 display: 'inline-block',
+                height: config.height || '200px'
               }}
             >
+            {config.headerAlignTop &&
+            <h4 style={{whiteSpace: 'nowrap'}}>{item.imageHeader}</h4>
+            }
               <PreviewCompatibleImage imageInfo={item} />
-               <h4 style={{whiteSpace: 'nowrap'}}>{item.imageHeader}</h4>
+                  {!config.headerAlignTop &&
+            <h4 style={{whiteSpace: 'nowrap'}}>{item.imageHeader}</h4>
+            }              
             </div>
           </div>
           <p style={{textAlign:config.centered? 'center' : 'left'}}>{item.text}</p>

@@ -4,30 +4,18 @@ title: Produkter
 image: /img/ellehem-693-unsplash.jpg
 heading: Finansielt CV
 description: >-
-  Vi gør det nemt for alle at få et overblik over deres økonomi. Samle dine
-  dokumenter ét sted, få overblik og få mere ud af dine lån, investeringer og
-  pension.
+  Finansielt CV er en gratis service til den enkelte private bruger. Det er en let og overskuelig måde for slutbrugeren at bevare sine finansielle data trygt og GDPR rigtigt. Slutbrugeren kan igennem Finansielt CV følge med i udviklingen af de større økonomiske poster såsom pensioner og investeringer. Finansielt CV udstiller følgende B2B services:
 intro:
   blurbs:
     - image: /img/undraw_folder_39kl.png
       text: >
-        Saml dine finansielle dokumenter i Finansielt CV, så du får et samlet
-        overblik og kan let dele dem med din bank, pensionskasse eller rådgiver,
-        når der er brug for det.
-    - image: /img/undraw_all_the_data_h4ki.png
+        Digital opbevaringsplads af kundedata, hvor slutbrugeren beholder sine data og giver rådgiveren lov til at kigge med og hente data.
+    - image: /img/undraw_synchronize_ccxk.png
       text: >-
-        Du får et samlet overblik, som sikrer dig, at du har styr på de store
-        linjer i din økonomi. Jo mere du bruger Finansielt CV, jo bedre overblik
-        får du, i det tempo, der passer dig.
+        Interaktion med slutbrugeren gennem direkte kommunikation til Finansielt CV.
     - image: /img/undraw_growth_analytics_8btt.png
       text: >
-        Finansielt CV vil gøre dig opmærksom på dine klatpensioner, dine dyre
-        lån eller forkerte investeringer. Du kan så spare penge, ved at kontakte
-        din rådgiver, bank eller pensionskasse.
-    - image: /img/undraw_spread_love_r9jb.png
-      text: >
-        Sammensæt dit finansielle CV med din nærmeste, og del med finansielle
-        rådgivere. 
+        Overvågningsservice og benchmarking af Pensioner og Investeringer sat op af rådgiveren.
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
@@ -35,57 +23,58 @@ intro:
     production, roasting and brewing seriously and we’re glad to pass that
     knowledge to anyone. This is an edit via identity...
 main:
-  heading: Få adgang til vores PensionsInfo-scraper service
+  heading: PensionsInfo Scraper Service
   description: >
-    Ved at kalde denne service kan du indlæse data fra PensionsInfo PDF'en helt
-    automatisk uden indtastninger. Servicen er tilgængelig som et REST API med
-    swagger dokumentation og eksempler. 
+    Denne service kræver, at brugeren vil uploade en pensionsinfo PDF fil. Servicen indlæser oplysningerne fra PDFen og generere et maskinlæsbart format (Json eller XML). 
+  description2: >  
+    Vi har en aftale med PensionPartner, hvor brugerne af PensionPartners løsninger, Senioranalyse og Behovsanalyse kan benytte sig af denne service, så de slipper for manuelle indtastninger. 
   image1:
     alt: A close-up of a paper filter filled with ground coffee
-    image: /img/undraw_dreamer_gxxi.png
-  image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/undraw_files_sent_oeqg.png
-  image3:
-    alt: Coffee beans
-    image: /img/tools-for-motivation-371416-unsplash.jpg
-testimonials:
-  - author: Elisabeth Kaurismäki
-    quote: >-
-      The first time I tried Kaldi’s coffee, I couldn’t even believe that was
-      the same thing I’ve been drinking every morning.
-  - author: Philipp Trommler
-    quote: >-
-      Kaldi is the place to go if you want the best quality coffee. I love their
-      stance on empowering farmers and transparency.
-full_image: /img/brooke-cagle-195777-unsplash.jpg
-pricing:
-  heading: Monthly subscriptions
-  description: >-
-    We make it easy to make great coffee a part of your life. Choose one of our
-    monthly subscription plans to receive great coffee at your doorstep each
-    month. Contact us about more details and payment info.
-  plans:
-    - description: Perfect for the drinker who likes to enjoy 1-2 cups per day.
-      items:
-        - 3 lbs of coffee per month
-        - Green or roasted beans"
-        - One or two varieties of beans"
-      plan: Small
-      price: '50'
-    - description: 'Great for avid drinkers, java-loving couples and bigger crowds'
-      items:
-        - 6 lbs of coffee per month
-        - Green or roasted beans
-        - Up to 4 different varieties of beans
-      plan: Big
-      price: '80'
-    - description: Want a few tiny batches from different varieties? Try our custom plan
-      items:
-        - Whatever you need
-        - Green or roasted beans
-        - Unlimited varieties
-      plan: Custom
-      price: '??'
+    image: /img/undraw_envelope_n8lc.png
+main2:
+  heading: Løbende PensionsTjek
+  description: >
+    Næsten 70% af alle danskere har glemte eller inaktive pensionsordninger fra tidligere arbejdspladser. Derved smider de mange penge ud af vinduet ved at betale for meget i omkostninger eller ved at være placeret i de forkerte puljer. Herudover er det altid en god ide at holde øje med pensionsselskabets performance. Finansielt CV hjælper med at identificere eventuelle problemer. Løbende PensionsTjek er en gratis service, som alle kan tilmelde sig direkte på fincv.dk. Servicen består af følgende: 
+  image1:
+    alt: A close-up of a paper filter filled with ground coffee
+    image: /img/undraw_envelope_n8lc.png    
+  blurbs:
+    - image: /img/undraw_notify_88a4.png
+      text: >
+        Kvartalsvise påmindelse om upload af nye pensionsinfo filer
+    - image: /img/undraw_investing_7u74.png
+      text: >-
+        Status over udviklingen af ens pensionsinvesteringer siden sidst
+    - image: /img/undraw_analyze_17kw.png
+      text: >
+        Sammenligning af de enkelte pensionsordningers performance med resten af Finansielt CV brugere (i anonymiseret form)
+  description2: >
+    Finansielt CV vil på baggrund af disse opdateringer generere en række opmærksomhedspunkter, som den enkelte kan reagere på enten selv, eller gennem en finansiel rådgiver/mægler, der muligvis i forvejen er tilknyttet virksomheden, som virksomhedens pensionsmægler/rådgiver.   
+
+main3:
+  heading: Finansielt CV Business
+  description: >
+    I samarbejde med pensionsmæglere og rådgivere tilbyder Finansielt CV en udvidet løbende pensionstjek som en virksomhedsordning. Det kræver, at virksomheden har en pensionsmægler/rådgiver tilknyttet, der enten har en samarbejdsaftale med Finansielt CV i forvejen eller gerne vil indgå i et Finansielt CV Business partnerskab. Fordelene ved at tilmelde sig denne ordning er følgende: 
+  blurbs1heading: >
+    For medarbejderen: 
+  blurbs1:
+    - image: /img/undraw_teacher_35j2.png
+      text: >
+        Finansielt CV’s opmærksomhedspunkter gennemgås af rådgiveren. 
+    - image: /img/undraw_messaging_uok8.png
+      text: >-
+        Medarbejderen har mulighed for at kontakte rådgiveren for afklaringer om hvad der skal ske med hensyn til opmærksomhedspunkterne. 
+    - image: /img/undraw_spread_love_r9jb.png
+      text: >
+        Medarbejderen får mere individuel rådgivning tilpasset til sine behov i takt med at forskellige behov opstår gennem livets forskellige faser. 
+  blurbs2heading: >
+    For virksomheden: 
+  blurbs2:
+    - image: /img/undraw_memory_storage_reh0.png
+      text: >
+        Afkoble sine medarbejders data fra rådgivere. Brugeren ejer sine data, så hvis virksomheden vælger en ny rådgiver, kan medarbejderne blot skifte rettighederne til hvem, der måtte tilgå disse data til den nye rådgiver.
+    - image: /img/undraw_all_the_data_h4ki.png
+      text: >-
+        Løbende (årlige) uvildige rapporter fra Finansielt CV om performance af ens pensionsselskab og sammenligning med andre pensionsselskaber.  
 ---
 

@@ -6,7 +6,7 @@ import Features from '../components/Features';
 import Testimonials from '../components/Testimonials';
 import Pricing from '../components/Pricing';
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
-
+const sectionStyle = {paddingBottom: 50, paddingTop: 50};
 export const ProductPageTemplate = ({
   image,
   title,
@@ -14,6 +14,8 @@ export const ProductPageTemplate = ({
   description,
   intro,
   main,
+  main2,
+  main3,
   testimonials,
   fullImage,
   pricing,
@@ -40,7 +42,7 @@ export const ProductPageTemplate = ({
           </div>
           <div className="columns">
             <div className="column is-10 is-offset-1">
-              <Features gridItems={intro.blurbs} config={{}} />
+              <Features gridItems={intro.blurbs} config={{rows: 4}} />
               <div className="columns">
                 <div className="column is-12 has-text-centered">
                   <a
@@ -53,34 +55,69 @@ export const ProductPageTemplate = ({
                   </a>
                 </div>
               </div>
-              <div
-                className="full-width-image-container"
-                style={{
-                  backgroundImage: `url(${fullImage.childImageSharp ? fullImage.childImageSharp.fluid.src : fullImage})`,
-                  marginBottom: '70px',
-                }}
-              />
-
-              <div className="columns">
-                <div className="column is-7">
-                  <h3 className="has-text-weight-semibold is-size-3">
-                    {main.heading}
-                  </h3>
-                  <p>{main.description}</p>
+              <div style={sectionStyle}>
+                <div className="columns">
+                  <div className="column is-7">
+                    <h3 className="has-text-weight-semibold is-size-3">
+                      {main.heading}
+                    </h3>
+                    <p>{main.description}</p>
+                    <p>{main.description2}</p>
+                  </div>
+                  <div className="column is-5">
+                    <article className="tile is-child">
+                      <PreviewCompatibleImage imageInfo={main.image1} />
+                    </article>
+                  </div>
                 </div>
-                <div className="column is-5">
-                  <article className="tile is-child">
-                    <PreviewCompatibleImage imageInfo={main.image1} />
-                  </article>
+                <div className="columns">
+                  <div className="column is-12 has-text-centered">
+                    <Link className="btn" to="/contact" style={{}}>
+                      Kontakt os for at høre mere
+                    </Link>
+                  </div>
                 </div>
               </div>
-                          <div className="columns">
-              <div className="column is-12 has-text-centered">
-                     <Link className="btn" to='/contact'>
-                    Kontakt os for at høre mere
-                  </Link>
+              <div style={sectionStyle}>
+                <div className="columns">
+                  <div className="column is-12">
+                    <h3 className="has-text-weight-semibold is-size-3">
+                      {main2.heading}
+                    </h3>
+                    <p>{main2.description}</p>
+                    <Features gridItems={main2.blurbs} config={{rows: 4}} />
+                    <p>{main2.description2}</p>
+                  </div>
+                </div>
+                <div className="columns">
+                  <div className="column is-12 has-text-centered">
+                    <Link className="btn" to="/contact" style={{marginTop:50}}>
+                      Kontakt os for at høre mere
+                    </Link>
+                  </div>
+                </div>
               </div>
-            </div>
+              <div style={sectionStyle}>
+                <div className="columns">
+                  <div className="column is-12">
+                    <h3 className="has-text-weight-semibold is-size-3">
+                      {main3.heading}
+                    </h3>
+                    <p>{main3.description}</p>
+                    <h4 style={{marginTop: 20}}>{main3.blurbs1heading}</h4>
+                    <Features gridItems={main3.blurbs1} config={{rows: 4}} />
+                    <h4>{main3.blurbs2heading}</h4>
+                    <Features gridItems={main3.blurbs2} config={{height:250}} />
+                  </div>
+                </div>
+                <div className="columns">
+                  <div className="column is-12 has-text-centered">
+                    <Link className="btn" to="/contact">
+                      Kontakt os for at høre mere
+                    </Link>
+                  </div>
+                </div>
+              </div>
             </div>
 
           </div>
@@ -101,9 +138,24 @@ ProductPageTemplate.propTypes = {
   main: PropTypes.shape ({
     heading: PropTypes.string,
     description: PropTypes.string,
+    description2: PropTypes.string,
     image1: PropTypes.oneOfType ([PropTypes.object, PropTypes.string]),
     image2: PropTypes.oneOfType ([PropTypes.object, PropTypes.string]),
     image3: PropTypes.oneOfType ([PropTypes.object, PropTypes.string]),
+  }),
+  main2: PropTypes.shape ({
+    heading: PropTypes.string,
+    description: PropTypes.string,
+    description2: PropTypes.string,
+    blurbs: PropTypes.array,
+  }),
+  main3: PropTypes.shape ({
+    heading: PropTypes.string,
+    description: PropTypes.string,
+    blurbs1: PropTypes.array,
+    blurbs2: PropTypes.array,
+    blurbs1heading: PropTypes.string,
+    blurbs2heading: PropTypes.string,
   }),
   testimonials: PropTypes.array,
   fullImage: PropTypes.oneOfType ([PropTypes.object, PropTypes.string]),
@@ -116,7 +168,7 @@ ProductPageTemplate.propTypes = {
 
 const ProductPage = ({data}) => {
   const {frontmatter} = data.markdownRemark;
-
+  console.log ('main2', frontmatter.main2);
   return (
     <Layout>
       <ProductPageTemplate
@@ -126,6 +178,8 @@ const ProductPage = ({data}) => {
         description={frontmatter.description}
         intro={frontmatter.intro}
         main={frontmatter.main}
+        main2={frontmatter.main2}
+        main3={frontmatter.main3}
         testimonials={frontmatter.testimonials}
         fullImage={frontmatter.full_image}
         pricing={frontmatter.pricing}
@@ -175,6 +229,7 @@ export const productPageQuery = graphql`
         main {
           heading
           description
+          description2
           image1 {
             alt
             image {
@@ -185,46 +240,46 @@ export const productPageQuery = graphql`
               }
             }
           }
-          image2 {
-            alt
-            image {
-              childImageSharp {
-                fluid(maxWidth: 526, quality: 92) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-          image3 {
-            alt
-            image {
-              childImageSharp {
-                fluid(maxWidth: 1075, quality: 72) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
         }
-        testimonials {
-          author
-          quote
-        }
-        full_image {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
-        pricing {
+        main2 {
           heading
           description
-          plans {
-            description
-            items
-            plan
-            price
+          description2
+          blurbs {
+            image {
+              childImageSharp {
+                fluid(maxWidth: 240, quality: 64) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+            text
+          }
+        }
+                main3 {
+          heading
+          description
+          blurbs1heading
+          blurbs2heading
+          blurbs1 {
+            image {
+              childImageSharp {
+                fluid(maxWidth: 240, quality: 64) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+            text
+          }
+          blurbs2 {
+            image {
+              childImageSharp {
+                fluid(maxWidth: 240, quality: 64) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+            text
           }
         }
       }

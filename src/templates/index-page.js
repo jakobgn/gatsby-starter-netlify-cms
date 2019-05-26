@@ -63,11 +63,11 @@ export const IndexPageTemplate = ({
                     <p>{description}</p>
                   </div>
                 </div>
-                <Features gridItems={intro.blurbs} />
+                <Features gridItems={intro.blurbs} config={{headerAlignTop:true, height:250}} />
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/products">
-                      Se vores produkter
+                      Hør mere om hvad vi kan tilbyde
                     </Link>
                   </div>
                 </div>
@@ -160,6 +160,7 @@ export const pageQuery = graphql`
               }
             }
             text
+            imageHeader
           }
           heading
           description

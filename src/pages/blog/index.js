@@ -2,23 +2,17 @@ import React from 'react'
 
 import Layout from '../../components/Layout'
 import BlogRoll from '../../components/BlogRoll'
+import WaveSection from '../../components/WaveSection';
 
 export default class BlogIndexPage extends React.Component {
   render() {
     return (
       <Layout>
-        <div
-          className="full-width-image-container margin-top-0"
-          style={{
-            backgroundImage: `url('/img/sebastian-muller-52-unsplash.jpg')`,
-          }}
-        >
-          <h1
-            className="has-text-weight-bold is-size-1 main-header"
-          >
-            Seneste Nyheder
-          </h1>
-        </div>
+            <WaveSection>
+      <h2 className="has-text-weight-bold is-size-3 main-header center-text">
+        Seneste Nyheder
+      </h2>
+    </WaveSection>
         <section className="section">
           <div className="container">
             <div className="content">

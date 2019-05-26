@@ -5,6 +5,7 @@ import Layout from '../components/Layout';
 import Features from '../components/Features';
 import Testimonials from '../components/Testimonials';
 import Pricing from '../components/Pricing';
+import WaveSection from '../components/WaveSection';
 import PreviewCompatibleImage from '../components/PreviewCompatibleImage';
 const sectionStyle = {paddingBottom: 50, paddingTop: 50};
 export const ProductPageTemplate = ({
@@ -21,17 +22,12 @@ export const ProductPageTemplate = ({
   pricing,
 }) => (
   <div className="content">
-    <div
-      className="full-width-image-container margin-top-0"
-      style={{
-        backgroundImage: `url(${!!image.childImageSharp ? image.childImageSharp.fluid.src : image})`,
-      }}
-    >
-      <h2 className="has-text-weight-bold is-size-1 main-header">
+    <WaveSection>
+      <h2 className="has-text-weight-bold is-size-3 main-header center-text">
         {title}
       </h2>
-    </div>
-    <section className="section section--gradient">
+    </WaveSection>
+    <section className="section section--gradient" style={{paddingTop: 0}}>
       <div className="container">
         <div className="section">
           <div className="columns">

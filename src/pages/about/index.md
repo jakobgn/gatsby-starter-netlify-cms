@@ -1,19 +1,12 @@
 ---
 templateKey: 'about-page'
 path: /about
-title: About our values
+title: Vores Vision
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+### Vi vil hjælpe den enkelte med at opnå finansielt indsigt og uafhængighed
+De fleste af os kan opnå finansiel uafhængighed, længe før pensionsalderen, hvis vi måtte ønske det. Det er selvfølgelig ikke ensbetydende med, at vi SKAL gå tidligere på pension og lave ingenting. Det betyder blot, at vi får muligheden til at forfølge det, vi allerhelst vil arbejde med, eller prioritere vores arbejdsliv anderledes uden at skulle bekymre os for meget for økonomien.
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+For at kunne opnå finansiel uafhængighed, helt, eller delvis, handler det om at planlægge og være følge sin plan. Det handler om at balancere indtægter og forbrug i løbet af levetiden. Og herudover handler det om at optimere de store finansielle beslutninger, særligt inden for lån, pension og investeringer. 
+Folk interesserer sig for hvilke muligheder deres finansielle ressourcer giver dem, og hvordan de kan optimere disse muligheder. De fleste mener samtidigt, at det er svært at få et let og overskueligt overblik over sine finansielle ressourcer og de kender ikke til deres handlemuligheder. 
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
-
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
-
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+Med Finansielt CV, vil vi give den enkelte det let og overskuelige overblik, der bliver bedre over tiden, og som giver den enkelte viden og indsigt til at tage informerede finansielle beslutnigner. 

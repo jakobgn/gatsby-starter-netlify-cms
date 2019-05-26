@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import {Link, graphql} from 'gatsby';
-
+import WaveSection from '../components/WaveSection';
 import Layout from '../components/Layout';
 import Features from '../components/Features';
 import BlogRoll from '../components/BlogRoll';
@@ -16,45 +16,26 @@ export const IndexPageTemplate = ({
   intro,
 }) => (
   <div>
-    <div
-      className="full-width-image margin-top-0"
-      style={{
-        backgroundImage: `url(${!!image.childImageSharp ? image.childImageSharp.fluid.src : image})`,
-        backgroundPosition: `top left`,
-        backgroundAttachment: `fixed`,
-      }}
-    >
-      <div
-        style={{
-          display: 'flex',
-          height: '150px',
-          lineHeight: '1',
-          justifyContent: 'space-around',
-          alignItems: 'left',
-          flexDirection: 'column',
-        }}
-      >
-      <h2
-        className="has-text-weight-bold is-size-1 main-header"
-      >
+    <WaveSection>
+      <h2 className="has-text-weight-bold is-size-3 main-header">
         {title}
       </h2>
-      </div>
-    </div>
-    <section className="section section--gradient">
+      <Link className="button is-white  is-outlined" to="/about" style={{marginRight:15, width:100}}>
+        Vision
+      </Link>
+        <Link className="button is-white  is-outlined" to="/products" style={{width:100}}>
+        Produkter
+      </Link>
+      <Link className="button is-white  is-outlined" to="/contact" style={{marginLeft:15, width:100}}>
+        Kontakt
+      </Link>
+    </WaveSection>
+    <section className="section section--gradient" style={{paddingTop: 0}}>
       <div className="container">
         <div className="section">
           <div className="columns">
             <div className="column is-10 is-offset-1">
               <div className="content">
-                <div className="content">
-                  <div className="tile">
-                    <h1 className="title">{mainpitch.title}</h1>
-                  </div>
-                  <div className="tile">
-                    <h3 className="subtitle">{mainpitch.description}</h3>
-                  </div>
-                </div>
                 <div className="columns">
                   <div className="column is-12">
                     <h3 className="has-text-weight-semibold is-size-2">
@@ -63,7 +44,10 @@ export const IndexPageTemplate = ({
                     <p>{description}</p>
                   </div>
                 </div>
-                <Features gridItems={intro.blurbs} config={{headerAlignTop:true, height:250}} />
+                <Features
+                  gridItems={intro.blurbs}
+                  config={{headerAlignTop: true, height: 250}}
+                />
                 <div className="columns">
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/products">

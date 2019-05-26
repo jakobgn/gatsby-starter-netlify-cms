@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: Vi bygger fremtidens finansielle rådgivning
+title: Vi vil hjælpe den enkelte med at opnå finansielt indsigt og uafhængighed
 image: /img/willian-justen-de-vasconcellos-595793-unsplash.jpg
 heading: Produkter
 subheading: Support sustainable farming while enjoying a cup

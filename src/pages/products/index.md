@@ -28,9 +28,6 @@ main:
     Denne service kræver, at brugeren vil uploade en pensionsinfo PDF fil. Servicen indlæser oplysningerne fra PDFen og generere et maskinlæsbart format (Json eller XML). 
   description2: >  
     Vi har en aftale med PensionPartner, hvor brugerne af PensionPartners løsninger, Senioranalyse og Behovsanalyse kan benytte sig af denne service, så de slipper for manuelle indtastninger. 
-  image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/undraw_envelope_n8lc.png
 main2:
   heading: Løbende PensionsTjek
   description: >

@@ -62,7 +62,7 @@ export const ProductPageTemplate = ({
                   </div>
                   <div className="column is-5">
                     <article className="tile is-child">
-                      <PreviewCompatibleImage imageInfo={main.image1} />
+                      <PreviewCompatibleImage imageInfo={main2.image1} />
                     </article>
                   </div>
                 </div>
@@ -164,7 +164,6 @@ ProductPageTemplate.propTypes = {
 
 const ProductPage = ({data}) => {
   const {frontmatter} = data.markdownRemark;
-  console.log ('main2', frontmatter.main2);
   return (
     <Layout>
       <ProductPageTemplate
@@ -199,13 +198,6 @@ export const productPageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
-        image {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
         heading
         description
         intro {
@@ -226,21 +218,20 @@ export const productPageQuery = graphql`
           heading
           description
           description2
-          image1 {
-            alt
-            image {
-              childImageSharp {
-                fluid(maxWidth: 526, quality: 92) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
         }
         main2 {
           heading
           description
           description2
+          image1 {
+                       image {
+              childImageSharp {
+                fluid(maxWidth: 240, quality: 64) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+          }
           blurbs {
             image {
               childImageSharp {

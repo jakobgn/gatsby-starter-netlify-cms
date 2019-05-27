@@ -1,10 +1,10 @@
-import React from 'react'
-import styled from 'styled-components'
+import React, {useState, useEffect} from 'react';
+import styled from 'styled-components';
 
-import Waves from './Waves'
-import { useWindowWidth } from '../hooks'
+import Waves from './Waves';
+import {useWindowWidth} from '../hooks';
 
-const getSectionWidth = props => (props.width ? `${props.width}px` : '100vw')
+const getSectionWidth = props => (props.width ? `${props.width}px` : '100vw');
 
 const Wrapper = styled.div`
 	${props => (props.disableTopMargin ? 'margin-top: -6rem;' : '')}
@@ -22,7 +22,7 @@ const Wrapper = styled.div`
 		${props => (props.footer ? '' : 'margin-left: -2rem;')}
 		padding: 0 2rem;
 	}
-`
+`;
 
 const Skew = styled.div`
 	position: relative;
@@ -34,7 +34,7 @@ const Skew = styled.div`
 		position: relative;
 		z-index: 2;
 	}
-`
+`;
 
 const Section = styled.div`
 	color: var(--dark);
@@ -43,13 +43,11 @@ const Section = styled.div`
         @media (min-width: 700px) {
             & {
                 margin: 0;
-                width: ${getSectionWidth(props)};
+                width: ${getSectionWidth (props)};
             }
         }
 		`}
-	${props =>
-		props.footer
-			? `
+	${props => (props.footer ? `
 		&:after {
 			background: var(--primary);
 			content: '';
@@ -63,9 +61,8 @@ const Section = styled.div`
 				right: -2rem;
 			}
 		}
-	`
-			: ''}
-`
+	` : '')}
+`;
 
 const Content = styled.div`
 	margin: 0 2rem;
@@ -96,28 +93,32 @@ const Content = styled.div`
 			color: var(--secondary);
 		}
 	}
-`
+`;
 
-const WaveSection = ({ as, children, disableTopMargin, footer }) => {
-	const width = useWindowWidth()
+const WaveSection = ({as, children, disableTopMargin, footer}) => {
+  const [firstTimeRender, setFirstTimeRender] = useState (false);
+  const width = useWindowWidth ();
+  useEffect (() => {
+    if (!firstTimeRender) {
+      setFirstTimeRender (true);
+    }
+  });
+  if(!firstTimeRender){
+	  return <div style={{height:450}}></div>
+  }
+  return (
+    <Wrapper disableTopMargin={disableTopMargin} footer={footer} width={width}>
+      <Skew footer={footer}>
+        <Section width={width} as={as} footer={footer}>
+          <Waves />
+          <div className="wave-content-wrapper">
+            <Content className="wave-content">{children}</Content>
+          </div>
+          <Waves invert offset />
+        </Section>
+      </Skew>
+    </Wrapper>
+  );
+};
 
-	return (
-		<Wrapper
-			disableTopMargin={disableTopMargin}
-			footer={footer}
-			width={width}
-		>
-			<Skew footer={footer}>
-				<Section width={width} as={as} footer={footer}>
-					<Waves />
-					<div className="wave-content-wrapper">
-					<Content className="wave-content fade-in">{children}</Content>
-					</div>					
-					{footer ? null : <Waves invert offset />}
-				</Section>
-			</Skew>
-		</Wrapper>
-	)
-}
-
-export default WaveSection
+export default WaveSection;

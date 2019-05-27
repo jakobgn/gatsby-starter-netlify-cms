@@ -17,18 +17,20 @@ export const IndexPageTemplate = ({
 }) => (
   <div>
     <WaveSection>
-      <h2 className="has-text-weight-bold is-size-3 main-header">
+    <div className="wave-section">
+      <h2 className="has-text-weight-bold main-header">
         {title}
       </h2>
-      <Link className="button is-white  is-outlined" to="/about" style={{marginRight:15, width:100}}>
+      <Link className="button is-white  is-outlined wave-button" to="/about" style={{marginRight:15, }}>
         Vision
       </Link>
-        <Link className="button is-white  is-outlined" to="/products" style={{width:100}}>
+        <Link className="button is-white  is-outlined wave-button" to="/products" style={{ marginRight:15}}>
         Produkter
       </Link>
-      <Link className="button is-white  is-outlined" to="/contact" style={{marginLeft:15, width:100}}>
+      <Link className="button is-white  is-outlined wave-button" to="/contact" style={{ }}>
         Kontakt
       </Link>
+    </div>
     </WaveSection>
     <section className="section section--gradient" style={{paddingTop: 0}}>
       <div className="container">

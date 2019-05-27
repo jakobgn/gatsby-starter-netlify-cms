@@ -9,7 +9,7 @@ export default class BlogIndexPage extends React.Component {
     return (
       <Layout>
             <WaveSection>
-      <h2 className="has-text-weight-bold is-size-3 main-header center-text">
+      <h2 className="has-text-weight-bold main-header center-text">
         Seneste Nyheder
       </h2>
     </WaveSection>

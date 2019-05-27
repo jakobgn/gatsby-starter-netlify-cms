@@ -23,7 +23,7 @@ export const ProductPageTemplate = ({
 }) => (
   <div className="content">
     <WaveSection>
-      <h2 className="has-text-weight-bold is-size-3 main-header center-text">
+      <h2 className="has-text-weight-bold main-header center-text">
         {title}
       </h2>
     </WaveSection>

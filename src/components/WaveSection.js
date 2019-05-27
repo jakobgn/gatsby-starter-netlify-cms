@@ -111,7 +111,7 @@ const WaveSection = ({ as, children, disableTopMargin, footer }) => {
 				<Section width={width} as={as} footer={footer}>
 					<Waves />
 					<div className="wave-content-wrapper">
-					<Content className="wave-content">{children}</Content>
+					<Content className="wave-content fade-in">{children}</Content>
 					</div>					
 					{footer ? null : <Waves invert offset />}
 				</Section>

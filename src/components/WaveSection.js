@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import styled from 'styled-components';
-
+import global from './global'
 import Waves from './Waves';
 import {useWindowWidth} from '../hooks';
 
@@ -96,23 +96,24 @@ const Content = styled.div`
 `;
 
 const WaveSection = ({as, children, disableTopMargin, footer}) => {
-  const [firstTimeRender, setFirstTimeRender] = useState (false);
   const width = useWindowWidth ();
   useEffect (() => {
-    if (!firstTimeRender) {
-      setFirstTimeRender (true);
+    if (!global.firstTimeRender) {
+      global.firstTimeRender = true
     }
   });
-  if(!firstTimeRender){
+  if(!global.firstTimeRender){
 	  return <div style={{height:450}}></div>
   }
+	global.renders += 1
+	console.log(global.renders)
   return (
     <Wrapper disableTopMargin={disableTopMargin} footer={footer} width={width}>
       <Skew footer={footer}>
         <Section width={width} as={as} footer={footer}>
           <Waves />
           <div className="wave-content-wrapper">
-            <Content className="wave-content">{children}</Content>
+            <Content className={global.renders === 1? "fade-in" : ""}>{children}</Content>
           </div>
           <Waves invert offset />
         </Section>

@@ -5,6 +5,7 @@ import WaveSection from '../components/WaveSection';
 import Layout from '../components/Layout';
 import Features from '../components/Features';
 import BlogRoll from '../components/BlogRoll';
+import global from '../components/global'
 
 export const IndexPageTemplate = ({
   image,
@@ -32,7 +33,8 @@ export const IndexPageTemplate = ({
       </Link>
     </div>
     </WaveSection>
-    <section className="section section--gradient" style={{paddingTop: 0}}>
+    <div className={global.renders < 1? "fade-in-slow" : ""}>
+        <section className="section section--gradient" style={{paddingTop: 0}}>
       <div className="container">
         <div className="section">
           <div className="columns">
@@ -74,6 +76,8 @@ export const IndexPageTemplate = ({
         </div>
       </div>
     </section>
+    </div>
+
   </div>
 );
 

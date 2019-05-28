@@ -41,7 +41,25 @@
         opacity: 1;
     }
 }
+.fade-in-slow {
+    opacity: 1;
+    animation-name: fadeInOpacitySlow;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-duration: 5s;
+}
 
+@keyframes fadeInOpacitySlow {
+    0% {
+        opacity: 0;
+	}
+	50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 @media only screen and (max-width: 600px) {
 	.main-header {
 		font-size: 1.0rem;

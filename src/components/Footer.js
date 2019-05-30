@@ -16,7 +16,7 @@ const Footer = class extends React.Component {
         </div>
         <div className="content has-text-centered has-background-black has-text-white-ter">
           <div className="container has-background-black has-text-white-ter">
-            <div className="columns">
+            <div className="columns" style={{marginRight:0, marginLeft:0}}>
               <div className="column is-4">
                 <section className="menu">
                   <ul className="menu-list">

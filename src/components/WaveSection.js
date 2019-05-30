@@ -103,7 +103,7 @@ const WaveSection = ({as, children, disableTopMargin, footer}) => {
     }
   });
   if(!global.firstTimeRender){
-	  return <div style={{height:450}}></div>
+	  return <div style={{height:468}}></div>
   }
 	global.renders += 1
 	console.log(global.renders)

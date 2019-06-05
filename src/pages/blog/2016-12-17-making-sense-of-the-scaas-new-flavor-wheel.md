@@ -2,9 +2,7 @@
 templateKey: blog-post
 title: Testing
 date: 2019-04-10T14:04:00.000Z
-description: >-
-  Vi er stolte over at Finansielt CV vil være en af de første services
-  tilgængelig i e-Box Plus. 
+description: 'Skrives senere.  '
 featuredpost: false
 featuredimage: /img/ebokslogo.png
 tags:

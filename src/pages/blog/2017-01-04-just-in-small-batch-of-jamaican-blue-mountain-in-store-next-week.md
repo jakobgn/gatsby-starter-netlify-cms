@@ -3,8 +3,8 @@ templateKey: blog-post
 title: Automatisk PensionsInfo indlæsning i PensionPartner
 date: 2019-05-13T22:00:00.000Z
 description: >-
-  We’re proud to announce that we’ll be offering a small batch of Jamaica Blue
-  Mountain coffee beans in our store next week.
+  Hvis man brugere en af Pensionpartner løsninger i dag, kan man fremover slippe
+  for manuelle indtastninger af PensionsInfo data. 
 featuredpost: false
 featuredimage: /img/pensionpartner.png
 tags:

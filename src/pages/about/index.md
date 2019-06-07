@@ -1,12 +1,12 @@
 ---
-templateKey: 'about-page'
-path: /about
+templateKey: about-page
 title: Vores Vision
 ---
 ### Vi vil hjælpe den enkelte med at opnå finansielt indsigt og uafhængighed
-De fleste af os kan opnå finansiel uafhængighed, længe før pensionsalderen, hvis vi måtte ønske det. Det er selvfølgelig ikke ensbetydende med, at vi SKAL gå tidligere på pension og lave ingenting. Det betyder blot, at vi får muligheden til at forfølge det, vi allerhelst vil arbejde med, eller prioritere vores arbejdsliv anderledes uden at skulle bekymre os for meget for økonomien.
 
-For at kunne opnå finansiel uafhængighed, helt, eller delvis, handler det om at planlægge og være følge sin plan. Det handler om at balancere indtægter og forbrug i løbet af levetiden. Og herudover handler det om at optimere de store finansielle beslutninger, særligt inden for lån, pension og investeringer. 
-Folk interesserer sig for hvilke muligheder deres finansielle ressourcer giver dem, og hvordan de kan optimere disse muligheder. De fleste mener samtidigt, at det er svært at få et let og overskueligt overblik over sine finansielle ressourcer og de kender ikke til deres handlemuligheder. 
+Flere og flere afsøger i dag mulighederne for selv at kunne styre deres arbejdsliv. Vi vil gerne forfølge det, vi allerhelst vil - det der giver mest mening for os. Vi vil hjælpe den enkelte at opnå indsigt i sin økonomi og de muligheder den giver en for at opnå dette mål.
 
-Med Finansielt CV, vil vi give den enkelte det let og overskuelige overblik, der bliver bedre over tiden, og som giver den enkelte viden og indsigt til at tage informerede finansielle beslutnigner. 
+For at kunne opnå finansiel uafhængighed, helt, eller delvis, handler det om at planlægge og følge sin plan. Det handler om at balancere indtægter og forbrug i løbet af levetiden. Undertiden handler det om at optimere de store finansielle beslutninger, særligt inden for lån, pension og investeringer. 
+Vi interesserer sig for hvilke muligheder vores finansielle ressourcer giver os her i livet, og hvordan vi kan optimere disse muligheder. Det er i mellem tiden svært for de fleste af os at skabe et let og overskueligt overblik over vores finansielle ressourcer, så vi kender ikke vores handlemuligheder. 
+
+Med Finansielt CV, vil vi give den enkelte et let og overskueligt overblik, der bliver bedre over tiden, og som giver den enkelte viden og indsigt til at tage informerede finansielle beslutninger.

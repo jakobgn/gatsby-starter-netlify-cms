@@ -2,7 +2,7 @@
 templateKey: about-page
 title: Vores Vision
 ---
-### Vi vil hjælpe den enkelte med at opnå finansielt indsigt og uafhængighed
+### Vi vil hjælpe den enkelte med at opnå finansiel indsigt og uafhængighed
 
 Flere og flere afsøger i dag mulighederne for selv at kunne styre deres arbejdsliv. Vi vil gerne forfølge det, vi allerhelst vil - det der giver mest mening for os. Vi vil hjælpe den enkelte at opnå indsigt i sin økonomi og de muligheder den giver en for at opnå dette mål.
 

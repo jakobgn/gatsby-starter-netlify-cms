@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Samarbejde med e-Boks
+title: Samarbejde med e-Boks Test
 date: 2019-04-10T14:04:00.000Z
 description: >-
   Finansielt CV kommer ud som en gratis service til alle brugere af e-Boks Plus

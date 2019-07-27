@@ -1,14 +1,11 @@
 ---
 templateKey: index-page
 title: Vi vil hjælpe den enkelte med at opnå finansielt indsigt og uafhængighed
-image: /img/willian-justen-de-vasconcellos-595793-unsplash.jpg
 heading: Produkter
-subheading: Support sustainable farming while enjoying a cup
 mainpitch:
   title: Kan finansiel rådgivning gøres bedre?
   description: |
     Det tror vi på. I dag er det rigtig dyrt at få god finansiel rådgivning. 
-description: 
 intro:
   blurbs:
     - image: /img/undraw_folder_39kl.png

@@ -4,7 +4,6 @@ import { Clip, Gradient, Wave, Waves as Wrapper } from './styles'
 
 const Waves = ({ invert, offset }) => {
 	const fill = '#2db1b0'
-	return null
 	return (
 		<Wrapper className="background transition" invert={invert} style={{height:100}}>
 			<Gradient />

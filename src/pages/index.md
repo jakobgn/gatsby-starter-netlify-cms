@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: Vi vil hjælpe den enkelte med at opnå finansiel indsigt og uafhængighed test
+title: Vi vil hjælpe den enkelte med at opnå finansiel indsigt og uafhængighed
 heading: Produkter
 mainpitch:
   description: |

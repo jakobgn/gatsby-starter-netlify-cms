@@ -3,7 +3,7 @@ var proxy = require ('http-proxy-middleware');
 module.exports = {
   siteMetadata: {
     title: 'TEAL',
-    description: 'Hjemmeside for virksomheden TEAL, som står bag Financielt CV',
+    description: 'Hjemmeside for virksomheden TEAL, som står bag Neway',
   },
   plugins: [
     'gatsby-plugin-react-helmet',

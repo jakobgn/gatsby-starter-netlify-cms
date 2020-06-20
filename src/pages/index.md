@@ -10,10 +10,10 @@ intro:
   blurbs:
     - image: /img/undraw_folder_39kl.png
       text: >
-        Finansielt CV er en gratis service til den enkelte private bruger. Det
+        Neway er en gratis service til den enkelte private bruger. Det
         er en let og overskuelig måde for slutbrugeren at bevare sine
         finansielle data trygt og GDPR rigtigt. Slutbrugeren kan igennem
-        Finansielt CV følge med i udviklingen af de større økonomiske poster
+        Neway følge med i udviklingen af de større økonomiske poster
         såsom pensioner og investeringer.
     - image: /img/undraw_envelope_n8lc.png
       text: >
@@ -30,7 +30,7 @@ intro:
         problemer.
     - image: /img/undraw_teacher_35j2.png
       text: >
-        I samarbejde med pensionsmæglere og rådgivere tilbyder Finansielt CV en
+        I samarbejde med pensionsmæglere og rådgivere tilbyder Neway en
         udvidet løbende pensionstjek som en virksomhedsordning.
 ---
 

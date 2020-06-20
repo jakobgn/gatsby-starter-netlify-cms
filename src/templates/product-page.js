@@ -43,11 +43,11 @@ export const ProductPageTemplate = ({
                 <div className="column is-12 has-text-centered">
                   <a
                     className="btn"
-                    href="https://www.fincv.dk/"
+                    href="https://www.neway.dk/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    Besøg Financielt CV
+                    Besøg Neway
                   </a>
                 </div>
               </div>

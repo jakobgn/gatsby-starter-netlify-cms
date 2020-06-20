@@ -24,6 +24,9 @@ const FeatureGrid = ({ gridItems, config}) => (
             }              
             </div>
           </div>
+          <h4>
+          {item.heading}
+          </h4>
           <p style={{textAlign:config.centered? 'center' : 'left'}}>{item.text}</p>
         </section>
       </div>

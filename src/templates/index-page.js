@@ -151,6 +151,7 @@ export const pageQuery = graphql`
                 }
               }
             }
+            heading
             text
             imageHeader
           }
